@@ -1,0 +1,98 @@
+body{
+    color: #6B6B84;
+    font-family: 'Ubuntu', sans-serif;
+
+
+}
+p{
+    font-size: 17px;
+    padding: 5px;
+    
+}
+
+
+.navbar{
+    position: fixed; 
+    background-color: #343a40;
+    padding: 15px;
+    width: 90%;
+    top: 0;
+    left: 5%;
+}
+
+.navbar a{
+    font-size: 17px;
+    text-decoration: none;
+    padding: 9px;
+    margin: 9px;
+    color: white;
+    font-weight: normal;
+}
+
+.navbar  a:hover{
+    border-bottom: #2f9de2 3px solid;
+    transition: 300ms border-bottom; 
+}
+
+.main-div,#contact{
+    height: 100vh;
+}
+/*bg images for home and contact section*/
+.main-div{
+    background:linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url(bg1.png);
+}
+.contact-div{
+    background:linear-gradient(rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url(bg2.png);
+    }
+
+    /*Parallax scroll effect*/
+.main-div,.contact-div{
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.jha{
+        margin-top: 10%;
+    }
+
+#homeimg{
+    height: 60px;
+    width: 60px;
+}
+
+.download-div{
+    height: 120vh;
+    background: #343a40;
+    color: white;
+}
+
+.download-div h4{
+    padding: 0;
+    margin: 0;
+    margin-top: 10%;
+}
+.download-div .download-button{
+    height: 80px;
+    width: 250px;
+    background-color:skyblue;
+    margin-top: 10%;
+}
+
+.arrow-icon{
+    font-size:40px;
+    padding-left: 20px;
+    padding-top: 15px;
+    padding-bottom: 25px;
+    padding-right: 27px;
+    transition:200ms padding-top ;
+}
+.arrow-icon:hover{
+    padding-top: 25px;
+    transition:200ms padding-top;  
+}
+
+.shot-slider img{
+    height: 60vh;
+    width: 50%;
+}
